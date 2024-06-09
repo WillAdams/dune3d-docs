@@ -1,7 +1,7 @@
 Groups and bodies
 =================
 
-A document consists of an ordered list groups. Each group contains
+A document consists of an ordered list of groups. Each group contains
 entities and constraints that result in a set of equations that gets 
 solved. Groups are solved in the order they're in the document. Once a 
 group is solved, the position of its entities can't be modified by 
@@ -74,11 +74,11 @@ Lathe
 A lathe group rotates closed paths from the source group's active 
 workplane along a specified point and vector. To specify it,
 either a line or a workplane must be selected when creating the group. 
-If a workplane is selected, lathe group is based on its normal vector.
+If a workplane is selected, the lathe group is based on its normal vector.
 
 A lathe group adds no degrees of freedom.
 
-Operation has the the same semantics as in extrusion groups.
+This operation has the the same semantics as in extrusion groups.
 
 
 Linear array
